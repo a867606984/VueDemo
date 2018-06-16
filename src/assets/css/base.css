@@ -1,4 +1,4 @@
-*{padding:0;margin:0;font-family: "微软雅黑"}
+*{padding:0;margin:0;font-family: "微软雅黑";-webkit-tap-highlight-color: transparent;box-sizing: border-box}
 html{overflow-y:scroll; overflow-x: hidden;}
 body{font-family:"冬青黑体简体中文","微软雅黑","宋体",Arial,sans-serif;}
 b,h1,h2,h3,h4,h5,h6{font-weight: normal;}
