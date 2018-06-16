@@ -1,0 +1,145 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 1rem;
+    background: #31bfff;
+    z-index: 999;
+}
+
+.header .logo{
+    position: absolute;
+    width:0.7rem;
+    height: 0.7rem;
+    top:calc(50% - .2rem);
+    left:0.2rem;
+}
+
+.header .logo .logo-img{
+    display: block;
+    /* width:100%; */
+}
+
+.header .search{
+    position: absolute;
+    width:4.14rem;
+    height: 0.5rem;
+    background: #fff;
+    border-radius: 0.25rem 0.25rem ;
+    top:calc(50% - 0.25rem);
+    left:calc(50% - 2.07rem);
+}
+
+.header .search .search-icon{
+    display:block;
+    margin:.1rem 0 0 .2rem;
+    width:.3rem;
+    height: .3rem;
+    float: left;
+    background:url(../assets/img/search.png);
+    background-size: cover;
+}
+
+.header .search .scan-code{
+    display:block;
+    margin:.1rem .3rem 0 0;
+    width:.3rem;
+    height: .3rem;
+    float: right;
+    background:url(../assets/img/camera.png);
+    background-size: cover;
+}
+
+.header .search .search-import{
+    display:block;
+    float:left;
+    width:2.5rem;
+    height: 0.5rem;
+    background: none;
+    font-size: 0.24rem;
+    border:none;
+    line-height: 0.5rem;
+    
+}
+
+.header .menu{
+    width:.52rem;
+    height: .44rem;
+    position: absolute;
+    top:calc(50% - .22rem);
+    right: .2rem;
+}
+
+.header .menu img{
+    display: block;
+    width:100%;
+}
+
+
+/********************************* content */
+.content{overflow: hidden;padding-top:1rem;}
+
+.sort-nav{
+    position:fixed;
+    left:0;
+    width:25%;
+    /*float:left;*/
+    /*bottom:5rem;*/
+}
+
+.sort-nav li,.sort-nav h4{
+    font-size: .3rem;
+    color:#000;
+    line-height: 1.1rem;
+    border-bottom:.01rem solid #000;
+}
+
+.sort-nav li.active{
+    color:#31bfff;
+}
+
+.goods{
+    width:75%;
+    /*position: fixed;*/
+    /*top:1rem;*/
+    /*bottom:1.2rem;*/
+    /*right:0;*/
+   float:right;
+    box-sizing: border-box;
+    border-left:.01rem solid #000;
+}
+
+.goodss .container{
+    overflow: hidden;
+}
+
+.goods .title{
+    font-size: .3rem;
+    line-height: 1rem;
+    text-align: left;
+    padding-left:.2rem;
+}
+
+.goods .goods-list{
+    overflow: hidden;
+}
+
+.goods .goods-list li{
+    width:50%;
+    float:left;
+    overflow: hidden;
+}
+
+.goods .goods-list li img{
+    width:2rem;
+    height: 2.34rem;
+    display: block;
+    margin:0 auto;
+}
+
+.goods .goods-list li p{
+    line-height: .7rem;
+    font-size: .24rem;
+    text-align: center;
+}

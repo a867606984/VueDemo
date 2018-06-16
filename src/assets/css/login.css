@@ -1,0 +1,135 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 1rem;
+    background: #31bfff;
+    z-index: 999;
+}
+
+.header .logo{
+    position: absolute;
+    width:0.7rem;
+    height: 0.7rem;
+    top:calc(50% - .2rem);
+    left:0.2rem;
+}
+
+.header .logo .logo-img{
+    display: block;
+    /* width:100%; */
+}
+
+.header .search{
+    position: absolute;
+    font-size: .4rem;
+    color: #fff;
+    width:4.14rem;
+    height: 0.5rem;
+    top:calc(50% - 0.25rem);
+    left:calc(50% - 2.07rem);
+}
+
+.header .menu{
+    position: absolute;
+    top:calc(50% - .22rem);
+    right: .2rem;
+    font-size: .3rem;
+    color:#fff;
+}
+
+/* ******************content */
+.content{
+    overflow: hidden;
+    padding-top:2.2rem;
+}
+
+.content form{
+    overflow: hidden;
+    padding:0 .3rem;
+}
+
+.content form div{
+    margin-bottom:.4rem;
+    overflow: hidden;
+}
+
+.content form .username label,
+.content form .password label{
+    float:left;
+    font-size: .3rem;
+    color:#000;
+    line-height: .6rem;
+}
+
+.content form .username input,
+.content form .password input{
+    width:4.34rem;
+    height: .58rem;
+    line-height: .58rem;
+    border-radius: .22rem/.3rem;
+    border:.01rem solid #31bfff;
+    padding:0 .2rem;
+    outline: none;
+    float:right;
+    /* margin-left:.18rem; */
+    font-size: .24rem;
+}
+
+.content form .forget{
+    font-size: .2rem;
+    color: #31bfff;
+    text-align: right;
+    padding-right: .2rem;
+}
+
+.content form button{
+    width:5.2rem;
+    height: .8rem;
+    border-radius: .32rem/.38rem;
+    background: #31bfff;
+    color:#fff;
+    text-align: center;
+    line-height: .8rem;
+    display: block;
+    margin: 0 auto;
+    font-size: .32rem;
+    border:none;
+    outline: none;
+}
+
+.footer{
+    overflow: hidden;
+    padding:1rem 0 4rem 0;
+}
+
+.footer h4{
+    border-bottom: .01rem solid #000;
+}
+
+.footer h4 span{
+    font-size: .26rem;
+    display: block;
+    width: 2.4rem;
+    margin:0 auto;
+    background: #fff;
+    margin-bottom:-.14rem;
+}
+
+.footer ul{
+    padding-top: .9rem;
+    overflow: hidden;
+}
+
+.footer li{
+    width:33.3333%;
+    float:left;
+}
+
+.footer li img{
+    width:1rem;
+    height: 1rem;
+    display: block;
+    margin:0 auto;
+}

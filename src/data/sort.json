@@ -1,0 +1,49 @@
+[
+    {
+    	"id": 0,
+    	"nav": "衣帽",
+    	"goods": [
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"}
+    	]
+    },
+    {
+    	"id": 1,
+    	"nav": "系列",
+    	"goods": [
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"}
+    	]
+    },
+    {
+    	"id": 2,
+    	"nav": "西装",
+    	"goods": [
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"}
+    	]
+    },
+    {
+    	"id": 3,
+    	"nav": "衬衫",
+    	"goods": [
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"}
+    	]
+    },
+    {
+    	"id": 4,
+    	"nav": "T桖",
+    	"goods": [
+    		{"img": "./src/assets/img/goods1.png", "text": "报喜鸟西装"},
+    		{"img": "./src/assets/img/goods2.png", "text": "报喜鸟西装"}
+    	]
+    }
+]

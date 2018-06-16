@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "msg": "都华式休闲西服男士 单件上衣商务抗皱免烫外套中老年宴会正装",
+        "img": "./src/assets/img/shop1.png",
+        "size": 44,
+        "color": "蓝色",
+        "price": 469,
+        "number": 1
+    },
+    {
+        "id": 1,
+        "msg": "都华式休闲西服男士 单件上衣商务抗皱免烫外套中老年宴会正装",
+        "img": "./src/assets/img/shop2.png",
+        "size": 12,
+        "color": "蓝色",
+        "price": 469,
+        "number": 1
+    },
+    {
+        "id": 2,
+        "msg": "都华式休闲西服男士 单件上衣商务抗皱免烫外套中老年宴会正装",
+        "img": "./src/assets/img/shop1.png",
+        "size": 33,
+        "color": "蓝色",
+        "price": 469,
+        "number": 1
+    },
+    {
+        "id": 3,
+        "msg": "都华式休闲西服男士 单件上衣商务抗皱免烫外套中老年宴会正装",
+        "img": "./src/assets/img/shop2.png",
+        "size": 23,
+        "color": "蓝色",
+        "price": 469,
+        "number": 1
+    }
+]

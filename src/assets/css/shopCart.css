@@ -1,0 +1,306 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 1rem;
+    background: #31bfff;
+    z-index: 999;
+}
+
+.header .logo{
+    position: absolute;
+    width:0.7rem;
+    height: 0.7rem;
+    top:calc(50% - .2rem);
+    left:0.2rem;
+}
+
+.header .logo .logo-img{
+    display: block;
+    /* width:100%; */
+}
+
+.header .search{
+    position: absolute;
+    font-size: .4rem;
+    color: #fff;
+    width:4.14rem;
+    height: 0.5rem;
+    top:calc(50% - 0.25rem);
+    left:calc(50% - 2.07rem);
+}
+
+.header .menu{
+    position: absolute;
+    top:calc(50% - .22rem);
+    right: .2rem;
+    font-size: .3rem;
+    color:#fff;
+}
+
+/*******************content*/
+
+.goods{
+    overflow: hidden;
+    padding-top:1rem;
+}
+
+.top-all-sel{
+    overflow: hidden;
+    padding:.38rem 0 .56rem 0;
+}
+
+.top-all-sel label{
+    position: relative;
+    padding-left:.4rem;
+    font-size: .3rem;
+    line-height: .5rem;
+    float: left;
+    margin-left:.35rem;
+}
+
+.top-all-sel label input{
+    position: absolute;
+    visibility: hidden;
+}
+
+.top-all-sel label span{
+    position: absolute;
+    width:.28rem;
+    height: .28rem;
+    border:.01rem solid #000;
+    border-radius: 50%;
+    top:calc(50% - .14rem);
+    left:0;
+    display: block; 
+}
+
+.top-all-sel label input:checked + span:after{
+    content:"";
+    position: absolute;
+    width:.05rem;
+    height: .15rem;
+    transform: rotate(45deg);
+    border-right:.02rem solid #dc4147;
+    border-bottom:.02rem solid #dc4147;
+    top:calc(50% - .1rem);
+    left:calc(50% - .03rem);
+    display: block;
+}
+
+.top-all-sel .free{
+    display: block;
+    font-size: .3rem;
+    padding-right: .35rem;
+    line-height: .5rem;
+    background: url("../assets/img/free.png") no-repeat center right;
+    /* background-size: cover; */
+    float: right;
+    margin-right: .2rem
+}
+
+/* ********************  goods-list*/
+.goods-list{overflow: hidden;padding-bottom:1.6rem;}
+
+.goods-list li{
+    overflow: hidden;
+    border-bottom: .01rem solid #000;
+    height: 2.34rem;
+    position: relative;
+}
+
+.goods-list .check-alone{
+    position: absolute;
+    padding-left:.4rem;
+    top:calc(50% - .2rem);
+    left:.3rem;
+}
+
+.goods-list .check-alone input{
+    position: absolute;
+    visibility: hidden;
+}
+
+.goods-list .check-alone span{
+    position: absolute;
+    width:.28rem;
+    height: .28rem;
+    border:.01rem solid #000;
+    border-radius: 50%;
+    top:calc(50% - .14rem);
+    left:0;
+    display: block; 
+}
+
+.goods-list .check-alone input:checked + span:after{
+    content:"";
+    position: absolute;
+    width:.05rem;
+    height: .15rem;
+    transform: rotate(45deg);
+    border-right:.02rem solid #dc4147;
+    border-bottom:.02rem solid #dc4147;
+    top:calc(50% - .1rem);
+    left:calc(50% - .03rem);
+    display: block;
+}
+
+.goods-list img{
+    position: absolute;
+    width:1.4rem;
+    height: 1.8rem;
+    display: block;
+    top:calc(50% - .9rem);
+    left:.9rem;
+}
+
+.goods-list .right{
+    width:60%;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    padding:.2rem 0;
+    height: 2.34rem;
+    box-sizing: border-box;
+}
+
+.goods-list .right .goods-msg{
+    font-size: .24rem;
+    color: #000;
+    line-height: .35rem;
+    text-align: left;
+}
+
+.goods-list .right .goods-params{
+    overflow: hidden;
+    text-align: left;
+    padding:.3rem 0;
+    font-size: .2rem;
+    color:#666;
+}
+
+.goods-list .right .price{
+    position: absolute;
+    font-size: .24rem;
+    bottom:.2rem;
+    left:0;
+    color:#dc4147;
+}
+
+.goods-list .right .count{
+    position: absolute;
+    bottom: .2rem;
+    right: 1rem;
+    border:.01rem solid #000;
+    border-radius: .05rem;
+    width:1.3rem;
+    height: .35rem;
+}
+
+.goods-list .right .count .count-reduce,
+.goods-list .right .count .count-add{
+    width:.38rem;
+    height: .35rem;
+    display: inline-block;
+    text-align: center;
+    line-height: .35rem;
+    font-size: .4rem;
+}
+.goods-list .right .count .count-reduce{
+    float:left;
+}
+.goods-list .right .count .count-add{
+    float: right;
+}
+
+.goods-list .right .count input{
+    width:.5rem;
+    height: .34rem;
+    border:solid #000;
+    border-width:0  .01rem;
+    float:left;
+    text-align: center;
+    line-height: .34rem;
+    font-size:.24rem;
+}
+
+.goods-list .delete{
+    position: absolute;
+    right: .2rem;
+    bottom:.4rem;
+    font-size: .8rem;
+}
+
+.footer{
+    overflow: hidden;
+    width:100%;
+    height: .99rem;
+    background: #fff;
+    border-top:.01rem solid #000;
+    position: fixed;
+    bottom: 1rem;
+    left:0;
+}
+
+.bot-all-sel label{
+    position: absolute;
+    padding-left:.4rem;
+    font-size: .3rem;
+    left:.35rem;
+    top:calc(50% - .2rem);
+}
+
+.bot-all-sel label input{
+    position: absolute;
+    visibility: hidden;
+}
+
+.bot-all-sel label span{
+    position: absolute;
+    width:.28rem;
+    height: .28rem;
+    border:.01rem solid #000;
+    border-radius: 50%;
+    top:calc(50% - .14rem);
+    left:0;
+    display: block; 
+}
+
+.bot-all-sel label input:checked + span:after{
+    content:"";
+    position: absolute;
+    width:.05rem;
+    height: .15rem;
+    transform: rotate(45deg);
+    border-right:.02rem solid #dc4147;
+    border-bottom:.02rem solid #dc4147;
+    top:calc(50% - .1rem);
+    left:calc(50% - .03rem);
+    display: block;
+}
+
+.footer .total{
+    /* display: inline; */
+    font-size: .3rem;
+    line-height: 1rem;
+    color:#000;
+    text-align: left;
+    margin-left:1.8rem;
+    float: left;
+}
+
+.footer .total .total-price{
+    color: #dc4147;
+}
+
+.footer .pay{
+    width:2.4rem;
+    height: .99rem;
+    font-size: .3rem;
+    /* line-height: .99rem;
+    text-align: center; */
+    float: right;
+    /* color: #fff; */
+    background: #fe0000;
+}

@@ -1,0 +1,178 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 1rem;
+    background: #31bfff;
+    z-index: 999;
+}
+
+.header .logo{
+    position: absolute;
+    width:0.7rem;
+    height: 0.7rem;
+    top:calc(50% - .2rem);
+    left:0.2rem;
+}
+
+.header .logo .logo-img{
+    display: block;
+    /* width:100%; */
+}
+
+
+.header .menu{
+    position: absolute;
+    top:calc(50% - .22rem);
+    right: .2rem;
+    font-size: .3rem;
+    color:#fff;
+}
+
+/* *******************************content */
+.conten{overflow: hidden;}
+
+.user-column{
+    padding-top:1rem;
+    width:100%;
+    height: 1.95rem;
+    background: #31bfff;
+}
+
+.user-column .user-msg{
+    width:50%;
+    height: 1.95rem;
+    float:left;
+}
+
+.user-column .insert{
+    height: 1.95rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.user-column .rigth{float:right}
+
+.user-column .user-msg img{
+    width:1.6rem;
+    height: 1.6rem;
+    display: block;
+    float:left;
+    margin-left:.3rem;
+}
+
+.user-column .user-msg p{
+    font-size: .3rem;
+    color:#fff;
+    float:left;
+    padding-left:.2rem;
+    margin-top:.5rem;
+}
+
+.user-column .user-vip{
+    width:2rem;
+    height:.5rem ;
+    background: #f99a08;
+    border-radius:.25rem 0 0 .25rem / .25rem 0 0 .25rem;
+    float: right;
+}
+
+.user-column .user-vip img{
+    float:left;
+    margin-left:.3rem;
+    margin-top:.05rem;
+    width:.41rem;
+    height: .42rem;
+    display: block;
+}
+
+.user-column .user-vip span{
+    font-size: .24rem;
+    line-height: .5rem;
+    color:#fff;
+    float:left;
+    margin-left:.2rem;
+}
+
+.number-msg{
+    overflow: hidden;
+    height: 1.45rem;
+}
+
+.number-msg ul{
+    padding:.35rem 0;
+    overflow: hidden;
+}
+
+.number-msg ul li{
+    width:33.333%;
+    float:left;
+    text-align: center;
+    font-size: .3rem;
+    color:#000;
+}
+
+.user-order{
+    overflow: hidden;
+    font-size: .34rem;
+    color:#000;
+    line-height: 1.1rem;
+    padding:0 .2rem;
+    text-align: left;
+    border:solid #000;
+    border-width: .01rem 0;
+}
+
+.user-order span{
+    font-size: .28rem;
+    float: right;
+}
+
+.order-nav {
+    overflow: hidden;
+    padding:.35rem 0;
+    border-bottom:.01rem solid #000;
+}
+
+.order-nav li{
+    width:20%;
+    float:left;
+}
+
+.order-nav li img{
+    width:.63rem;
+    height: .63rem;
+    margin:0 auto;
+    display: block;
+}
+
+.order-nav li p{
+    text-align: center;
+    font-size: .24rem;
+    padding-top:.1rem;
+}
+
+.service-list{
+    overflow: hidden;
+    padding-bottom:2rem;
+}
+
+.service-list li{
+    padding-top:.5rem;
+    width:25%;
+    float:left;
+}
+
+.service-list li p{
+    text-align: center;
+    font-size: .24rem;
+    padding-top:.1rem;
+}
+
+.service-list li img{
+    width:.86rem;
+    height: .6rem;
+    margin:0 auto;
+    display: block;
+}
