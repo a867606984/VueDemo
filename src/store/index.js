@@ -5,8 +5,8 @@ import mutations from './mutation'
 import getters from './getters'
 
 Vue.use(Vuex)
-export default new Vuex.Store({
-  state:{
+
+let state = {
     number: 11,
     loading: false,
     route: true,
@@ -14,7 +14,9 @@ export default new Vuex.Store({
     allCheck: false,
     totalPrice: 0,
     totalNumber: 0
-  },
+  }
+export default new Vuex.Store({
+  state,
   actions,
   mutations,
   getters
