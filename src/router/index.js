@@ -22,7 +22,8 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: home
+      component: home,
+      meta: { keepAlive: true }
     },
     {
       path: '/sort',
@@ -32,7 +33,8 @@ export default new Router({
     {
       path: '/going',
       name: 'going',
-      component: going
+      component: going,
+      meta: { keepAlive: true }
     },
     {
       path: '/shopCart',

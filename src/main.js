@@ -9,6 +9,7 @@ import Loading from './common/loading'
 import Mint from 'mint-ui'
 import filters from './filters/filters'
 import axios from 'axios'
+import '@/assets/js/rem.js'
 
 Object.keys(filters).forEach(key => Vue.filter(key, filters[key]))
 Vue.config.productionTip = false

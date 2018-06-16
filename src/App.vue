@@ -1,10 +1,9 @@
 <template>
   <div id="app">
-    <transition name="fade">
-      <!-- <keep-alive> -->
-        <router-view></router-view>
-      <!-- </keep-alive> -->
-    </transition>
+      <keep-alive>
+        <router-view v-if="to.meta.keepAlive"></router-view>
+      </keep-alive>
+      <router-view v-if="!to.meta.keepAlive"></router-view>
     <navFooter  v-show="route"></navFooter>
   </div>
 </template>
